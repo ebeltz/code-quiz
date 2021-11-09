@@ -1,3 +1,5 @@
+// Questions
+
 // Define a set of questions
 const questions = [
     {
@@ -61,6 +63,8 @@ const questions = [
         answer: "a. onclick"
     }
 ];
+
+//  Variables for Quiz
 
 // grab references to elements
 var timer = document.getElementById("timer");
@@ -254,6 +258,8 @@ function showHighScores() {
         listOfHighScores.appendChild(eachNewHighScore);
     }
 }
+
+// Event Listeners
 
 startQuizBtn.addEventListener("click", newQuiz);
 choiceA.addEventListener("click", chooseA);
