@@ -9,7 +9,7 @@ h2 {
 }
 
 a {
-    color: mediumslateblue;
+    color: purple;
 }
 
 a:hover {
@@ -19,7 +19,7 @@ a:hover {
 .btn:focus, .btn:active, .btn:visited {
     outline: none !important;
     box-shadow: none !important;
-    background-color: navy;
+    background-color: purple;
 }
 
 #finalScore {
@@ -32,5 +32,5 @@ a:hover {
 
 #answerCheck {
     font-style: italic;
-    color: darkslateblue;
+    color: purple;
 }
